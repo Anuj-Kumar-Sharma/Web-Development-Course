@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+    font-family: 'Silkscreen', Verdana, sans-serif;
+}
+
+h1 {
+    /* text-decoration: line-through;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy; */
+    /* text-shadow: 4px 4px 10px black; */
+
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline red;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 1rem;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+}
