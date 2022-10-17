@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    /* height: 400px; */
+    border: 2px solid red;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+
+    display: none;
+
+}
+
+/* .block1 {
+    overflow: auto;
+} */
+
+.p1 {
+    border: 2px solid green;
+    margin-right: 100px;
+}
+
+.p1 {
+    clear: right;
+}
+
+.img1 {
+    float: right;
+    margin-left: 40px;
+}
+
+.img2 {
+    float: left;
+}
+
+.p2 {
+    clear: both;
+}
+
+
+
+
+
+.bigbox {
+    width: 400px;
+    height: 400px;
+    background-color: gainsboro;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    overflow: auto;
+}
+
+.b1 {
+    background-color: red;
+
+}
+
+.b2 {
+    background-color: blue;
+    float: right;
+    clear: left;
+}
+
+.b3 {
+    background-color: green;
+    float: left;
+    clear: left;
+}
+
+.b4 {
+    background-color: yellow;
+    
+}
