@@ -19,22 +19,5 @@
 }
 
 .box:hover {
-    /* transform: rotate(45deg); */
-    
+    transform: rotate(45deg);
 }
-
-@keyframes circle-in-hesitate {
-    0% {
-      clip-path: circle(0%);
-    }
-    40% {
-      clip-path: circle(40%);
-    }
-    100% {
-      clip-path: circle(125%);
-    }
-  }
-  
-  [transition-style="in:circle:hesitate"] {
-    animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-hesitate both;
-  }
