@@ -1,0 +1,77 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+
+.primary-btn:link {
+    color: green;
+    padding: 10px;
+}
+
+.primary-btn:visited {
+    color: orange;
+}
+
+.primary-btn:hover {
+    color: red;
+    background-color: black;
+}
+
+.primary-btn:active {
+    color: black;
+    background-color: white;
+    border: 4px solid green;
+}
+
+/* ul li:first-child {
+    background-color: violet;
+}
+
+ul li:last-child {
+    background-color: red;
+} */
+
+/* nth child */
+/* an+b */
+
+ul li:nth-child(2n + 1) {
+    background-color: gray
+}
+
+h2::first-letter {
+    font-size: 3rem;
+}
+
+p::first-line {
+    background-color: burlywood;
+}
+
+::selection {
+    color: greenyellow;
+    background-color: black;
+}
+
+/* before and after */
+
+h3::before {
+    content: 'any this is begining';
+}
+
+h3::after {
+    content: '*';
+}
+
+.required::after {
+    content: '*';
+    color: red;
+}
+
+.important::after {
+    content: 'important';
+    background-color: red;
+    color: white;
+    padding: 0.2rem;
+    font-size: 0.5rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
