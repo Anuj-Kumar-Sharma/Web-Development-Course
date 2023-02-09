@@ -1,0 +1,35 @@
+.box {
+    margin: 100px auto;
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    transition-duration: 1s;
+    transition-property: border-radius, background-color, transform;
+    transition-delay: 0.1s;
+    transition-timing-function: cubic-bezier(0.74, -0.31, 0.6, 3.22);
+}
+
+.box:hover {
+    /* background-color: purple; */
+    /* border-radius: 50%; */
+    transform: scale(1.2);
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.item {
+    font-size: 2rem;
+    padding: 8px 16px;
+    transition: 0.3s ease-in;
+}
+
+.item:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transform: translateY(-10px);
+}
