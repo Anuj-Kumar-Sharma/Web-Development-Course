@@ -152,3 +152,34 @@ main {
 .news-source {
     margin-block: 12px;
 }
+
+/*  ----- Media Query ----- */
+
+@media only screen and (max-width: 1200px) {
+    nav{
+        padding: 0px 30px;
+    }
+    main{
+        padding: 10px 30px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .cards-container {
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .nav-links {
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .main-nav{
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-evenly;
+    }
+    #cards-container{
+        margin-top: 100px;
+    }
+}
